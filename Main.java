@@ -10,7 +10,7 @@ public class Main {
         long sTime;
         long tTime;
         for (int i = 0; i < 5; i++)
-            list.add(new Thread(new Targil2(candidate,status)));
+            list.add(new Thread(new Worker(candidate,status)));
 
 
         sTime = System.currentTimeMillis();
